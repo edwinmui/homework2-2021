@@ -5,9 +5,8 @@ body{
 }
 
 h1{
-    display: flex;
     font-size: 64px;
-    justify-content: center;
+    text-align: center;
     padding: 10px;
 }
 
@@ -29,6 +28,7 @@ img{
 }
 
 div{
+    min-height: 150px;
     height: 150px;
     overflow: auto;
     padding: 25px;
@@ -45,7 +45,7 @@ div{
 }
 
 #yellow{
-    background-color: #FFFF00;
+    background-color: rgb(78, 78, 54);
     text-align: right;
 }
 #yellow h2{
@@ -61,7 +61,7 @@ div{
     text-align: left;
 }
 
-footer{
+footer p{
     text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
